@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Form Parameter Ship Hull Design | ai, CAD, Optimization-Design and Engineering</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="Luke McCulloch" />
+    <meta name="kittycheck_rumble" content="true" />
+    <meta name="kittycheck_position" content="top=60,right=60" />
+
+    <!-- Le styles -->
+    <link rel="stylesheet" href="./theme/css/bootstrap.min.css" type="text/css" />
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+      .sidebar-nav {
+        padding: 9px 0;
+      }
+      .tag-1 {
+        font-size: 13pt;
+      }
+      .tag-2 {
+        font-size: 10pt;
+      }
+      .tag-2 {
+        font-size: 8pt;
+      }
+      .tag-4 {
+        font-size: 6pt;
+     }
+    </style>
+    <link href="./theme/css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="./theme/css/font-awesome.css" rel="stylesheet">
+    <link href="./theme/css/pygments.css" rel="stylesheet">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="./theme/img/favicon.ico">
+    <link rel="apple-touch-icon" href="./theme/img/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./theme/img/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./theme/img/apple-touch-icon-114x114.png">
+
+    <link href="./" type="application/atom+xml" rel="alternate" title="ai, CAD, Optimization-Design and Engineering ATOM Feed" />
+  </head>
+  <body>
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container-fluid">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="./index.html">ai, CAD, Optimization-Design and Engineering </a>
+          <div class="nav-collapse">
+            <ul class="nav">
+                <li class="divider-vertical"></li>
+                <li >
+                  <a href="./category/logic-programming.html">
+						        <i class="icon-folder-open icon-large"></i>Logic Programming
+					         </a>
+                </li>
+                <li class="active">
+                  <a href="./category/naval-architecture.html">
+						        <i class="icon-folder-open icon-large"></i>Naval Architecture
+					         </a>
+                </li>
+                <li >
+                  <a href="./category/operating-systems.html">
+						        <i class="icon-folder-open icon-large"></i>operating systems
+					         </a>
+                </li>
+              <ul class="nav pull-right">
+                    <li><a href="./"><i class="icon-th-list"></i>Archives</a></li>
+              </ul>
+
+            </ul>
+            <!--<p class="navbar-text pull-right">Logged in as <a href="#">username</a></p>-->
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="span8" id="content">
+<div class="row">
+    <div class="span2">
+        <div class="well">
+<footer class="post-info">
+<abbr class="published" title="2017-02-12T16:42:00-06:00">
+    <i class="icon-calendar"></i>&nbsp;Sun 12 February 2017
+</abbr>
+<br/><a href="./author/luke-mcculloch.html"><i class="icon-user"></i>&nbsp;Luke McCulloch</a>
+
+
+<br/>
+	&nbsp;&nbsp;<a href="./tag/parametric-design.html" class="label"><i class="icon-tag"></i>&nbsp;Parametric Design</a>
+	&nbsp;&nbsp;<a href="./tag/optimization.html" class="label"><i class="icon-tag"></i>&nbsp;Optimization</a>
+	&nbsp;&nbsp;<a href="./tag/automation.html" class="label"><i class="icon-tag"></i>&nbsp;automation</a>
+	&nbsp;&nbsp;<a href="./tag/python.html" class="label"><i class="icon-tag"></i>&nbsp;python</a>
+</footer><!-- /.post-info -->        </div>
+    </div>
+    <div class="span6">
+<section id="content" class="well">
+    <article>
+        <header>
+            <h1>
+                <a href=""
+                        rel="bookmark"
+                        title="Permalink to Form Parameter Ship Hull Design">
+                        Form Parameter Ship Hull Design
+                </a>
+            </h1>
+        </header>
+        <div class="entry-content">
+
+        <p>The purpose of this post is to introduce an 
+engineering design and optimization specific 
+to the field of Naval Architecture, but broad enough 
+in its scope to be of more general interest.<br>
+Narrowly defined, the problem is to construct a system which 
+automates the process of designing a ship hull to a given 
+specification (constraints), and optimizing that design 
+relative to some measures of merit.</p>
+<p>Broadly defined, the problem is one of automation and 
+artificial intelligence versus the traditional way of doing business.<br>
+Any and all techniques from the fields of artificial intelligence and 
+optimization should be considered when attacking this problem.</p>
+<p>The purpose of this post is to introduce a specific problem 
+in automated engineering design.<br>
+The second purpose of this post is to put that problem into the 
+context of the exciting times in which it lives.  This second issue, 
+in a way, is the harder one, for automation is a rather attention grabbing 
+term these days, due to what appear to be broad and sweeping successes.<br>
+It seems breakthroughs in artificial intelligence research are 
+happening "pretty often", to put it in deliberatley non-rigrous 
+sounding terms.  Interestingly, the much hearalded "breakthroughs" 
+are things like <a href="http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf">LeCun's image recognizing net</a>, 
+or <a href="https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf">Alexnet</a>, 
+center around the concept of having the computer do tasks that have 
+traditionaly been the province of humans.  Namely, things like visual 
+recognition, game playing, and text or speech translation or reasoning.</p>
+<p>With such breakthroughs ongoing, it is interesting to contrast engineering design.<br>
+Problems of design have also been the province of humans until recently, 
+but here for possibly different reasons.<br>
+In design, the designer must synthasize knowledge from 
+disparate sources and systems (emample?).<br>
+Some tasks are trivial, but the integration of 
+such tasks into a design process may render them 
+non-trivial (example).  With such difficulties, 
+an opinion sometimes voiced by practicing engineers 
+is that problems for which we have automation techniques are 
+either to trivial to be worth much, as they are not integrated 
+properly into the depth of the design problem, or to difficult, 
+as the design problems engineers face can seem almost intracable, 
+computationally considered.</p>
+<p>A journey of one thousand programs begins with a single line of code, 
+however, and with that in mind, we shall endevour 
+to start to enumerate the problems of engineering design, 
+and begin to come to grips with some of them.<br>
+Fortunately, 
+there may even be medium scale, medium term gains on the horizon, 
+and if we can meetin these, and yet keep the greater picture of holistic 
+design in the back of our minds, we may make some meaningful progress on 
+the greater problems of automating engineering design, while meeting some 
+worthwhile immediate challenges.</p>
+<p>With such an end in mind, 
+I shall begin to describe the 
+project I have set forth for 
+myself.  <a href="./introduction-to-the-form-parameter-ship-hull-design-and-optimization-problem.html">To read more about that, start here</a></p>
+        </div><!-- /.entry-content -->
+    </article>
+</section>
+</div>
+</div>
+        </div><!--/span-->
+        <div class="span3 well sidebar-nav" id="sidebar">
+<ul class="nav nav-list">
+<li class="nav-header"><h4><i class="icon-home icon-large"></i> social</h4></li>
+    <li><a href="#"><i class="icon-You can add links in your config file-sign icon-large"></i>You can add links in your config file</a></li>
+    <li><a href="#"><i class="icon-Another social link-sign icon-large"></i>Another social link</a></li>
+
+<li class="nav-header"><h4><i class="icon-folder-close icon-large"></i>Categories</h4></li>
+<li>
+<a href="./category/logic-programming.html">
+    <i class="icon-folder-open icon-large"></i>Logic Programming
+</a>
+</li>
+<li>
+<a href="./category/naval-architecture.html">
+    <i class="icon-folder-open icon-large"></i>Naval Architecture
+</a>
+</li>
+<li>
+<a href="./category/operating-systems.html">
+    <i class="icon-folder-open icon-large"></i>operating systems
+</a>
+</li>
+
+
+
+</ul>        </div><!--/.well -->
+
+      </div><!--/row-->
+
+      <hr>
+
+    </div><!--/.fluid-container-->
+
+
+    <!-- Le javascript -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="./theme/js/jquery-1.7.2.min.js"></script>
+    <script src="./theme/js/bootstrap.min.js"></script>
+  </body>
+</html>
