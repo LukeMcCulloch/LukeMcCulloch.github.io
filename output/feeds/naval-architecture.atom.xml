@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>ai, CAD, Optimization-Design and Engineering - Naval Architecture</title><link href="https://LukeMcCulloch.github.io/" rel="alternate"></link><link href="https://LukeMcCulloch.github.io/feeds/naval-architecture.atom.xml" rel="self"></link><id>https://LukeMcCulloch.github.io/</id><updated>2017-02-12T21:07:00-06:00</updated><entry><title>Introduction to the Form Parameter Ship Hull Design and Optimization Problem</title><link href="https://LukeMcCulloch.github.io/introduction-to-the-form-parameter-ship-hull-design-and-optimization-problem.html" rel="alternate"></link><published>2017-02-12T21:07:00-06:00</published><updated>2017-02-12T21:07:00-06:00</updated><author><name>Luke McCulloch</name></author><id>tag:lukemcculloch.github.io,2017-02-12:/introduction-to-the-form-parameter-ship-hull-design-and-optimization-problem.html</id><summary type="html">&lt;p&gt;&lt;a href="https://LukeMcCulloch.github.io/form-parameter-ship-hull-design.html"&gt;Over here&lt;/a&gt;, we introduced the ship hull design and optimization automation problem as a specific instance of the broader push to automate many tasks using machine intelligence, optimization, and similar techniques.  This time, I'd like to outline the problem specifically in the context of naval architecture.&lt;/p&gt;
+&lt;h4&gt;So What's the problem …&lt;/h4&gt;</summary><content type="html">&lt;p&gt;&lt;a href="https://LukeMcCulloch.github.io/form-parameter-ship-hull-design.html"&gt;Over here&lt;/a&gt;, we introduced the ship hull design and optimization automation problem as a specific instance of the broader push to automate many tasks using machine intelligence, optimization, and similar techniques.  This time, I'd like to outline the problem specifically in the context of naval architecture.&lt;/p&gt;
+&lt;h4&gt;So What's the problem?  And why would you care?&lt;/h4&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;Current CAD/CAE systems have developed to the point where they not only
+serve as replacement for the drawing board but also provide complete 
+product documentation for the whole life cycle of the system.
+The next logical step in the development of CAD and CAE methods is
+their comprehensive integration with engineering analysis and exploiting
+analysis results in product optimization and design space exploration.
+One of the most promising geometric design methods for computer aided
+design of complex hydrodynamic or aerodynamic hull like ships, cars, and
+aircraft is so called &amp;quot;form parameter design&amp;quot;.  
+In this technique, complex shapes are computed to user specifications
+rather than approximating specifications by manual adjustments to the
+design.
+
+So, the problem is an important one for the direction of engineering ship deign.  The problem is not an easy one.  Current implementations suffer from a number of drawbacks.
+*  It&amp;#39;s easy to specify inconsistent constraints
+*  This makes the systems hard for users to use
+*  This is the perfect opportunity for a smart assistant.
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h4&gt;How could solutions to this problem effect the idustry?&lt;/h4&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;*  Ship hull design is a bottleneck in the ship design process.  In the design spiral, the portion of the design that is most timeconsuming, per iteration, is often the hull design, simply because of the interplay of a large number of constraints.  Automating the design of a ship hull greatly reduced the burden on the engineer in producing any ship design.
+*  Automation opens the door for hands free optimization.  Free of the exense of manual design manipulation by engineers, relatively cheap computations can be spent simply making better designs. Optimization could thus improve
+    *  decreasing production costs via optimizing the amount and placement of curved plate required.
+    *  increasing fuel efficiency
+    *  better seakeeping qualities for reduced downtime and increased safety of operation.
+    *  better stability and damage stability qualities
+
+Automation and optimzation techniques are especially noteworthy in ship design because of the one-of-a-kind nature of ship designs.
+In the past, optimization was only economical when production runs achieved economies of scale, since the great numbers of a product that would be produced made the most of any advantage which could be confered, even at large up front costs, as such high up front design costs could be spread out over the large volume produced.
+In contrast, the one-off designs of the ship building industry necessitate a very efficient design process indeed, if there is to be any room left over for the optimization of a design that will see life only in one single instance.  Because of such cost considerations, only the efficiencies enabled by automation allow designers to finally tap the full potential of the computer for optimzition.
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h4&gt;What drawbacks have prevented the uptake of automation/optimization solutions to date?&lt;/h4&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;A primary difficulty that all automated ship hull design tools have to overcome is interplay of large numbers of constraints acting across hierarchical levels of a design.
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;ul&gt;
+&lt;li&gt;A design is more easily specified via a design hierarchy.&lt;/li&gt;
+&lt;li&gt;Unfortunately, some constraints refuse to act only on their local level of that hierarchy.&lt;/li&gt;
+&lt;/ul&gt;</content><category term="Parametric Design"></category><category term="Optimization"></category><category term="automation"></category><category term="python"></category></entry><entry><title>Form Parameter Ship Hull Design</title><link href="https://LukeMcCulloch.github.io/form-parameter-ship-hull-design.html" rel="alternate"></link><published>2017-02-12T16:42:00-06:00</published><updated>2017-02-12T16:42:00-06:00</updated><author><name>Luke McCulloch</name></author><id>tag:lukemcculloch.github.io,2017-02-12:/form-parameter-ship-hull-design.html</id><summary type="html">&lt;p&gt;The purpose of this post is to introduce an 
+engineering design and optimization specific 
+to the field of Naval Architecture, but broad enough 
+in its scope to be of more general interest.&lt;br&gt;
+Narrowly defined, the problem is to construct a system which 
+automates the process of designing a ship hull …&lt;/p&gt;</summary><content type="html">&lt;p&gt;The purpose of this post is to introduce an 
+engineering design and optimization specific 
+to the field of Naval Architecture, but broad enough 
+in its scope to be of more general interest.&lt;br&gt;
+Narrowly defined, the problem is to construct a system which 
+automates the process of designing a ship hull to a given 
+specification (constraints), and optimizing that design 
+relative to some measures of merit.&lt;/p&gt;
+&lt;p&gt;Broadly defined, the problem is one of automation and 
+artificial intelligence versus the traditional way of doing business.&lt;br&gt;
+Any and all techniques from the fields of artificial intelligence and 
+optimization should be considered when attacking this problem.&lt;/p&gt;
+&lt;p&gt;The purpose of this post is to introduce a specific problem 
+in automated engineering design.&lt;br&gt;
+The second purpose of this post is to put that problem into the 
+context of the exciting times in which it lives.  This second issue, 
+in a way, is the harder one, for automation is a rather attention grabbing 
+term these days, due to what appear to be broad and sweeping successes.&lt;br&gt;
+It seems breakthroughs in artificial intelligence research are 
+happening "pretty often", to put it in deliberatley non-rigrous 
+sounding terms.  Interestingly, the much hearalded "breakthroughs" 
+are things like &lt;a href="http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf"&gt;LeCun's image recognizing net&lt;/a&gt;, 
+or &lt;a href="https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf"&gt;Alexnet&lt;/a&gt;, 
+center around the concept of having the computer do tasks that have 
+traditionaly been the province of humans.  Namely, things like visual 
+recognition, game playing, and text or speech translation or reasoning.&lt;/p&gt;
+&lt;p&gt;With such breakthroughs ongoing, it is interesting to contrast engineering design.&lt;br&gt;
+Problems of design have also been the province of humans until recently, 
+but here for possibly different reasons.&lt;br&gt;
+In design, the designer must synthasize knowledge from 
+disparate sources and systems (emample?).&lt;br&gt;
+Some tasks are trivial, but the integration of 
+such tasks into a design process may render them 
+non-trivial (example).  With such difficulties, 
+an opinion sometimes voiced by practicing engineers 
+is that problems for which we have automation techniques are 
+either to trivial to be worth much, as they are not integrated 
+properly into the depth of the design problem, or to difficult, 
+as the design problems engineers face can seem almost intracable, 
+computationally considered.&lt;/p&gt;
+&lt;p&gt;A journey of one thousand programs begins with a single line of code, 
+however, and with that in mind, we shall endevour 
+to start to enumerate the problems of engineering design, 
+and begin to come to grips with some of them.&lt;br&gt;
+Fortunately, 
+there may even be medium scale, medium term gains on the horizon, 
+and if we can meetin these, and yet keep the greater picture of holistic 
+design in the back of our minds, we may make some meaningful progress on 
+the greater problems of automating engineering design, while meeting some 
+worthwhile immediate challenges.&lt;/p&gt;
+&lt;p&gt;With such an end in mind, 
+I shall begin to describe the 
+project I have set forth for 
+myself.  &lt;a href="https://LukeMcCulloch.github.io/introduction-to-the-form-parameter-ship-hull-design-and-optimization-problem.html"&gt;To read more about that, start here&lt;/a&gt;&lt;/p&gt;</content><category term="Parametric Design"></category><category term="Optimization"></category><category term="automation"></category><category term="python"></category></entry></feed>
