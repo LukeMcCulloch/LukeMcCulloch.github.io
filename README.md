@@ -13,7 +13,7 @@ All Rights Reserved
 The dissertation describing what I've done is [here.](https://scholarworks.uno.edu/td/2552/)
 
 A paper my advisor and I wrote detailing some of the first
-things I came up with for the project [here.](https://www.sciencedirect.com/science/article/abs/pii/S0167839617301474?via%3Dihub)
+things I came up and built with for the project [here.](https://www.sciencedirect.com/science/article/abs/pii/S0167839617301474?via%3Dihub)
 
 I hope to post a pre-print for this somewhere soon.
 
