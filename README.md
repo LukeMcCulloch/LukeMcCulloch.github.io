@@ -19,7 +19,8 @@ I hope to post a pre-print for this somewhere soon.
 
 There is a new paper to be given at a constraint programming conference,
 briefly summarizing the details of the constraint programming system.  This paper will be part of the 12th International Workshop
-on Constraint Programming and Decision Making [here.](https://interval.louisiana.edu/IFSA-NAFIPS/CoProD2019.html)
+on Constraint Programming and Decision Making [here](https://interval.louisiana.edu/IFSA-NAFIPS/CoProD2019.html)
+and [here.](http://coprod.constraintsolving.com/)
 
 As for this web page, well, a blog belongs here.  Unfortunately I am in the process of
 fixing up many long neglected projects.  This one is not yet
