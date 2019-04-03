@@ -54,7 +54,7 @@ syntax tree, and in processing that tree into a relational, connected, rules bas
 I was following a pattern that repeats itself again and again throughout 
 computer science --- the interpreter pattern.  
 
-From Norvig to SCIP, and from C++ expression templates to a n-ary logical rules, 
+From Norvig to SICP, and from C++ expression templates to a n-ary logical rules, 
 and probably back to the first calculator you or your aunt, or your classmates dad implemented from an object-Pascal book in 1991, the interpreter pattern keeps showing up.  Anyway, I'm not a writer so I will stick to the facts:
 * In my PhD I have a class which overloads math to store up an expression tree.
 * I then parse said expression tree and construct simple logical rules that 
