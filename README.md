@@ -31,8 +31,9 @@ These days I am chiefly working on two or three things:  algorithms inspired by 
 * [c++ expression templates and gpu programming for PDE modeling](https://github.com/LukeMcCulloch/cpp-cuda-flow-solver-1)
 
 There are several points to this research --- much of which is self-educational, as required by my cross disciplinary mind-set.  
-I feel there are cross disciplinary purposes to discrete differential geometry 
-research.  The algorithms are inspired by basics physics and the idea is to re-purpose 
+
+First, there are cross disciplinary reasons to get into discrete differential geometry 
+research.  The algorithms are inspired by the more beautiful and topological side of physics and the idea is to re-purpose 
 the research that is out there now to do more expressive, more powerful, 
 and more efficient constrained variational design of, e.g. ship hulls and other complicated shapes.  In this way it is an outgrowth of my PhD research.  Or at any rate, 
 the eventual goal is to tie the two things together.
