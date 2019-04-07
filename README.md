@@ -5,9 +5,7 @@ The code is [here.](https://github.com/LukeMcCulloch/feasible-form-parameter-des
 
 copyright 2019 Thomas Luke McCulloch
 
-All Rights Reserved 
-
-(until I can figure out what to do with this code.)
+All Rights Reserved (until I can figure out what to do with this code.)
 
 The dissertation describing what I've done is [here.](https://scholarworks.uno.edu/td/2552/)
 
@@ -37,8 +35,16 @@ There are several points to this research --- much of which is self-educational,
 First, there are cross disciplinary reasons to get into discrete differential geometry 
 research.  The algorithms are inspired by the more beautiful and topological side of physics and the idea is to re-purpose 
 the research that is out there now to do more expressive, more powerful, 
-and more efficient constrained variational design of, e.g. ship hulls and other complicated shapes.  In this way it is an outgrowth of my PhD research.  Or at any rate, 
-the eventual goal is to tie the two things together.
+and more efficient constrained variational design of, e.g. ship hulls and other complicated shapes.  
+
+Next, notions from differential geometry and topology are playing 
+an increasingly interesting role together with quantum information, 
+quantum computing, and condensed matter physics.  I hope to 
+leverage my geometric entryway into the necessary mathematics to better 
+understand computational 
+quantum systems, algorithms, and error correcting codes.  When quantum machines 
+take over certain realms of physics and engineering, I want to be 
+well ahead of the curve, developing software to match the hardware.  
 
 With the C++ expression templates and CUDA programming project, I have several goals:
 * Understand and implement the basic (general) ideas behind world class high performance C++ linear algebra libraries.  (not the specific cache aware, high detail stuff a la Kazushige. Goto.  This is educational.  I can use a library as well as the next guy)
