@@ -1,12 +1,11 @@
 # LukeMcCulloch.github.io
-pages static site
 
-In support of the PhD I completed at the University of New Orleans.
+This little static site is in support of the PhD I completed at the University of New Orleans.
 The code is [here.](https://github.com/LukeMcCulloch/feasible-form-parameter-design)
 
 copyright 2019 Thomas Luke McCulloch
 
-All Rights Reserved
+All Rights Reserved 
 
 (until I can figure out what to do with this code.)
 
@@ -25,6 +24,9 @@ and [here.](http://coprod.constraintsolving.com/)
 As for this web page, well, a blog belongs here.  Unfortunately I am in the process of
 fixing up many long neglected projects.  This one is not yet
 first in line!
+
+
+# Present research interests
 
 These days I am chiefly working on two or three things:  algorithms inspired by geometric physics, understanding geometric physics, and high performance computing.  The ongoing projects related to this research are here:
 * [differential geometry, topology, and exterior calculus for mesh processing and geometric design](https://github.com/LukeMcCulloch/Python-discrete-differential-geometry)
@@ -76,3 +78,4 @@ and can avoid expensive creation of temporary objects to hold
 temporary results.
 * Since all this is done in templates, all this fancy footwork happens at compile time, which is usually a good place to offload extra work, though not always, but I digress.  (I maintain old, huge code-bases for a living right now.  They compile slowly.)
 * In the end, many operations can be combined into more efficient loops by the compiler.  These would have been ugly to maintain if written explicitly.  (This aestheticism is the chief purpose of the exercise.)
+
