@@ -55,14 +55,19 @@ syntax tree, and in processing that tree into a relational, connected, rules bas
 I was following a pattern that repeats itself again and again throughout 
 computer science --- the interpreter pattern.  
 
-From Norvig to SICP, and from C++ expression templates to a n-ary logical rules, 
-and probably back to the first calculator you or your aunt, or your classmates dad implemented from an object-Pascal book in 1991, the interpreter pattern keeps showing up.  Anyway, I'm not a writer so I will stick to the facts:
+From Norvig to SICP, and from C++ expression templates to a n-ary logical rules, and finally in Tensor Flow, Theano, and no doubt in other machine learning libraries, 
+the interpreter pattern keeps showing up.  
+
+Here is how this pattern appears in my work:
 * In my PhD I have a class which overloads math to store up an expression tree.
 * I then parse said expression tree and construct simple logical rules that 
 implement the same procedural mathematics in relational style.
 * Here I deliberately created explicitly temporaries that I could process easily into 
 another computational form.
+
+
 On the other hand, for expression template programming in C++, 
+the interpreter pattern shows up in the following way:
 * One implements classes which overload mathematical expression so as to store 
 up the computation tree instead of performing the computations eagerly.
 * Then, when all computations in an expression are known, the program can 
