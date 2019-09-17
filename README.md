@@ -3,6 +3,8 @@
 This little static site is in support of the PhD I completed at the University of New Orleans.
 The code is [here.](https://github.com/LukeMcCulloch/feasible-form-parameter-design)
 
+I've pushed a slide deck, rendered to html, [here](https://lukemcculloch.github.io/FrontPage_PhD/)
+
 copyright 2019 Thomas Luke McCulloch
 
 All Rights Reserved (until I can figure out what to do with this code.)
